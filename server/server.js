@@ -29,6 +29,6 @@ app.use (bodyParser.json ()) ;
 app.use (express.static (__dirname + '/../www')) ;
 app.set ('view engine', 'ejs') ;
 
-app.set ('port', process.env.PORT || 80) ;
+app.set ('port', process.env.PORT || 8000) ;
 
 module.exports =app ;
